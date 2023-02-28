@@ -1,4 +1,3 @@
-
 def ungroup_elements(elements):
     """
     Iterate through json version of <elements> tags convert JSON structure to key,value pairs

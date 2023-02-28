@@ -1,6 +1,9 @@
 import json
+
 import click
+
 from swob_xml_to_json import swob_xml_to_json
+
 
 @click.command()
 @click.argument("filename", type=click.Path(exists=True))

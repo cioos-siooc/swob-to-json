@@ -33,8 +33,8 @@ def flatten_json(data):
     record = {
         "sampling_time": sampling_time,
         "result_time": result_time,
-        "metadata":metadata,
-        "results":results,
+        "metadata": metadata,
+        "results": results,
     }
 
     return record
