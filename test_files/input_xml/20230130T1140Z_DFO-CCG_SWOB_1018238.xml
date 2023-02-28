@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<om:ObservationCollection xmlns:om="http://www.opengis.net/om/1.0"
+    xmlns="http://dms.ec.gc.ca/schema/point-observation/2.0" xmlns:gml="http://www.opengis.net/gml"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <om:member>
+        <om:Observation>
+            <om:metadata>
+                <set>
+                    <general>
+                        <author build="build.49" name="MSC-DMS-PG-SWOB" version="4.7" />
+                        <dataset
+                            name="partners/observation/atmospheric/surface_weather/ccg_lighthouse-1.0-ascii" />
+                        <phase name="product_generic_swob-xml-2.0" />
+                        <id
+                            xlink:href="/data/partners/observation/atmospheric/surface_weather/ccg_lighthouse-1.0-ascii/product_generic_swob-xml-2.0/202301301140/1018238/trial_is/orig/data_180" />
+                        <parent
+                            xlink:href="/data/partners/observation/atmospheric/surface_weather/ccg_lighthouse-1.0-ascii/decoded_qa-xml-2.0/202301301140/1018238/trial_is/orig/data_180/level_1" />
+                    </general>
+                    <identification-elements>
+                        <element name="stn_nam" uom="unitless" value="TRIAL ISLAND" />
+                        <element name="stn_id" uom="unitless" value="TRIAL IS" />
+                        <element name="msc_id" uom="unitless" value="1018238" />
+                        <element name="lat" uom="°" value="48.3951" />
+                        <element name="long" uom="°" value="-123.3049" />
+                        <element name="stn_elev" uom="m" value="23" />
+                        <element name="date_tm" uom="datetime" value="2023-01-30T11:40:00.000Z" />
+                        <element name="data_pvdr" uom="unitless" value="DFO-CCG" />
+                        <element name="data_attrib_not" uom="unitless"
+                            value="Observational data provided by the Government of Canada: Department of Fisheries and Oceans (DFO), Canadian Coast Guard (CCG). All rights reserved. | Données d’observation fournies par le Gouvernement du Canada: Pêches et Océans Canada (POC), Garde côtière canadienne (GCC). Tous droits réservés." />
+                        <element name="wmo_synop_id" uom="unitless" value="71034" />
+                        <element name="tc_id" uom="unitless" value="WIN" />
+                    </identification-elements>
+                </set>
+            </om:metadata>
+            <om:samplingTime>
+                <gml:TimeInstant>
+                    <gml:timePosition>2023-01-30T11:40:00.000Z</gml:timePosition>
+                </gml:TimeInstant>
+            </om:samplingTime>
+            <om:resultTime>
+                <gml:TimeInstant>
+                    <gml:timePosition>2023-01-30T12:35:44.232Z</gml:timePosition>
+                </gml:TimeInstant>
+            </om:resultTime>
+            <om:procedure
+                xlink:href="/metadata/partners/mr/sfc_wx_cfg/ccg_lighthouse/instance-xml-2.0/1018238/trial_is?version=1.4" />
+            <om:observedProperty gml:remoteSchema="/schema/point-observation/2.0.xsd" />
+            <om:featureOfInterest>
+                <gml:FeatureCollection>
+                    <gml:location>
+                        <gml:Point>
+                            <gml:pos>48.3951 -123.3049</gml:pos>
+                        </gml:Point>
+                    </gml:location>
+                </gml:FeatureCollection>
+            </om:featureOfInterest>
+            <om:result>
+                <elements>
+                    <element code-src="std_code_src" code-type="total_cloud_amount"
+                        name="tot_cld_amt_code" uom="code" value="1">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="vis" uom="km" value="24.140">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element code-src="std_code_src" code-type="direction" name="wnd_dir_code"
+                        uom="code" value="8">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="2" />
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="wnd_spd" uom="km/h" value="20.4">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="2" />
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="wv_hgt" uom="m" value="0">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element code-src="std_code_src" code-type="state_of_sea" name="sea_state"
+                        uom="code" value="10">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                </elements>
+            </om:result>
+        </om:Observation>
+    </om:member>
+</om:ObservationCollection>

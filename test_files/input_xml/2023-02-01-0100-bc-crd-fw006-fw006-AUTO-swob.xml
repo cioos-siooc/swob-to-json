@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<om:ObservationCollection xmlns:om="http://www.opengis.net/om/1.0"
+    xmlns="http://dms.ec.gc.ca/schema/point-observation/2.0" xmlns:gml="http://www.opengis.net/gml"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <om:member>
+        <om:Observation>
+            <om:metadata>
+                <set>
+                    <general>
+                        <author build="build.49" name="MSC-DMS-PG-SWOB" version="4.7" />
+                        <dataset name="gov_bc/observation/atmospheric/surface_weather/crd-1.0-json" />
+                        <phase name="product_generic_swob-xml-2.0" />
+                        <id
+                            xlink:href="/data/gov_bc/observation/atmospheric/surface_weather/crd-1.0-json/product_generic_swob-xml-2.0/20230201010000/bc-crd_fw006/fw006/orig" />
+                        <parent
+                            xlink:href="/data/gov_bc/observation/atmospheric/surface_weather/crd-1.0-json/decoded_enhanced-xml-2.0/20230201010000/bc-crd_fw006/fw006/orig" />
+                    </general>
+                    <identification-elements>
+                        <element name="msc_id" uom="unitless" value="BC-CRD_FW006" />
+                        <element name="stn_id" uom="unitless" value="FW006" />
+                        <element name="stn_nam" uom="unitless" value="sooke_dam" />
+                        <element name="stn_shrt_nam" uom="unitless" value="sooke_dam" />
+                        <element name="lat" uom="°" value="48.516111" />
+                        <element name="long" uom="°" value="-123.700556" />
+                        <element name="stn_elev" uom="m" value="172" />
+                        <element name="date_tm" uom="datetime" value="2023-02-01T01:00:00.000Z" />
+                        <element name="rptg_freq" uom="min" value="15" />
+                        <element name="data_pvdr" uom="unitless" value="BC-CRD" />
+                        <element name="data_attrib_not" uom="unitless"
+                            value="Observational data provided by the Capital Regional District (CRD). All rights reserved. | Données d’observation fournies par le District régional de la capitale (CRD). Tous droits réservés." />
+                        <element name="prov" uom="unitless" value="BC" />
+                    </identification-elements>
+                </set>
+            </om:metadata>
+            <om:samplingTime>
+                <gml:TimeInstant>
+                    <gml:timePosition>2023-02-01T01:00:00.000Z</gml:timePosition>
+                </gml:TimeInstant>
+            </om:samplingTime>
+            <om:resultTime>
+                <gml:TimeInstant>
+                    <gml:timePosition>2023-02-01T01:20:23.631Z</gml:timePosition>
+                </gml:TimeInstant>
+            </om:resultTime>
+            <om:procedure
+                xlink:href="/metadata/gov_bc/mr/station_config/crd/instance-xml-2.0/bc-crd_fw006/sooke_dam?version=1.0" />
+            <om:observedProperty gml:remoteSchema="/schema/point-observation/2.0.xsd" />
+            <om:featureOfInterest>
+                <gml:FeatureCollection>
+                    <gml:location>
+                        <gml:Point>
+                            <gml:pos>48.5161111111 -123.7005555556</gml:pos>
+                        </gml:Point>
+                    </gml:location>
+                </gml:FeatureCollection>
+            </om:featureOfInterest>
+            <om:result>
+                <elements>
+                    <element name="rnfl_amt_pst15mts" uom="mm" value="0">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="pcpn_amt_pst1hr" uom="mm" value="0.3">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="air_temp" uom="°C" value="1.1">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="rel_hum" uom="%" value="96">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="avg_wnd_spd_10m_pst15mts" uom="km/h" value="2.1">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="avg_wnd_dir_10m_pst15mts" uom="°" value="187">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="stn_pres" uom="hPa" value="1000.9">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="avg_globl_solr_radn_pst1hr" uom="W/m²" value="6">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="avg_photosnthticly_actv_radn_pst1hr" uom="µmol/m²s" value="22">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="snw_dpth" uom="cm" value="0">
+                        <qualifier name="qa_summary" uom="unitless" value="100" />
+                    </element>
+                    <element name="pcpn_amt_pst24hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="pcpn_amt_pst3hrs" uom="mm" value="0.7">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="1" />
+                    </element>
+                    <element name="pres_tend_amt_pst3hrs" uom="hPa" value="-0.8">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="1" />
+                    </element>
+                    <element name="rnfl_amt_pst12hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="rnfl_amt_pst6hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element code-src="std_code_src" code-type="tendency_characteristic"
+                        name="pres_tend_char_pst3hrs" uom="code" value="6">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="1" />
+                    </element>
+                    <element name="rnfl_amt_pst3hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="rnfl_amt_pst1hr" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="rnfl_amt_pst24hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="pcpn_amt_pst6hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="pcpn_amt_pst12hrs" uom="mm" value="MSNG">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="4" />
+                    </element>
+                    <element name="mslp" uom="hPa" value="1022.2">
+                        <qualifier code-src="std_code_src" code-type="data_flags" name="data_flag"
+                            uom="code" value="1" />
+                    </element>
+                </elements>
+            </om:result>
+        </om:Observation>
+    </om:member>
+</om:ObservationCollection>

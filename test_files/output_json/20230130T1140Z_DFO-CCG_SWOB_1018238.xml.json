@@ -1,0 +1,31 @@
+{
+    "sampling_time": "2023-01-30T11:40:00.000Z",
+    "result_time": "2023-01-30T12:35:44.232Z",
+    "metadata": {
+        "stn_nam": "TRIAL ISLAND",
+        "stn_id": "TRIAL IS",
+        "msc_id": "1018238",
+        "lat": "48.3951",
+        "long": "-123.3049",
+        "stn_elev": "23",
+        "date_tm": "2023-01-30T11:40:00.000Z",
+        "data_pvdr": "DFO-CCG",
+        "data_attrib_not": "Observational data provided by the Government of Canada: Department of Fisheries and Oceans (DFO), Canadian Coast Guard (CCG). All rights reserved. | Données d’observation fournies par le Gouvernement du Canada: Pêches et Océans Canada (POC), Garde côtière canadienne (GCC). Tous droits réservés.",
+        "wmo_synop_id": "71034",
+        "tc_id": "WIN"
+    },
+    "results": {
+        "tot_cld_amt_code": "1",
+        "tot_cld_amt_code_qa_summary": "100",
+        "vis": "24.140",
+        "vis_qa_summary": "100",
+        "wnd_dir_code": "8",
+        "wnd_dir_code_qa_summary": "100",
+        "wnd_spd": "20.4",
+        "wnd_spd_qa_summary": "100",
+        "wv_hgt": "0",
+        "wv_hgt_qa_summary": "100",
+        "sea_state": "10",
+        "sea_state_qa_summary": "100"
+    }
+}
