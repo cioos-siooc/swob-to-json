@@ -18,7 +18,7 @@ def replace_values(input_dict, from_value, to_value):
             input_dict[key] = to_value
     return input_dict
 
-def swob_xml_to_json(xml_file_path):
+def parse(xml_file_path):
     """
     Converts XML to JSON
     """
