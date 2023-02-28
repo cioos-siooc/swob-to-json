@@ -1,3 +1,5 @@
+[![Python package](https://github.com/cioos-siooc/swob_xml_to_json/actions/workflows/test.yaml/badge.svg)](https://github.com/cioos-siooc/swob_xml_to_json/actions/workflows/test.yaml)
+
 # SWOB XML to JSON
 
 Converts Environment and Climate Change Canada's SWOB-ML XML files to JSON.
