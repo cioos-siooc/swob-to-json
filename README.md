@@ -13,15 +13,18 @@ SWOB is Surface Weather and Marine Observation Markup Language
 1. `pip install .`
 
 ## CLI Usage
+
 1. python -m swob_xml_to_json [2023-02-01-0615-46036-AUTO-swob.xml](https://raw.githubusercontent.com/cioos-siooc/swob_xml_to_json/main/test_files/input_xml/2023-02-01-0615-46036-AUTO-swob.xml)
-1. See example output file -  [2023-02-01-0615-46036-AUTO-swob.xml.json](https://raw.githubusercontent.com/cioos-siooc/swob_xml_to_json/main/test_files/output_json/2023-02-01-0615-46036-AUTO-swob.xml.json)
+1. See example output file - [2023-02-01-0615-46036-AUTO-swob.xml.json](https://raw.githubusercontent.com/cioos-siooc/swob_xml_to_json/main/test_files/output_json/2023-02-01-0615-46036-AUTO-swob.xml.json)
 
 ## Module Usage
 
 ```python
 from swob_xml_to_json import swob_xml_to_json
 
-swob_json = swob_xml_to_json.parse(filename)
+swob_json = swob_xml_to_json.parseFile(filename)
+# or
+swob_json = swob_xml_to_json.parseText(filename)
 
 ```
 
