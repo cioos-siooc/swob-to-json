@@ -24,7 +24,7 @@ from swob_xml_to_json import swob_xml_to_json
 
 swob_json = swob_xml_to_json.parseFile(filename)
 # or
-swob_json = swob_xml_to_json.parseText(filename)
+swob_json = swob_xml_to_json.parseText(xml_string)
 
 ```
 
