@@ -11,7 +11,7 @@ def main(filename):
     """
     Handle command line interaction via click
     """
-    swob_json = swob_xml_to_json.parse(filename)
+    swob_json = swob_xml_to_json.parseFile(filename)
     print(json.dumps(swob_json, indent=4, ensure_ascii=False))
 
 

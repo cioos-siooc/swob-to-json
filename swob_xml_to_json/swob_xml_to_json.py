@@ -19,14 +19,15 @@ def replace_values(input_dict, from_value, to_value):
             input_dict[key] = to_value
     return input_dict
 
+def parseFile(xml_file_path):
+    with open(xml_file_path, "r") as content_file:
+        xml_string = content_file.read()
+    return parseText(xml_string)
 
-def parse(xml_file_path):
+def parseText(xml_string):
     """
     Converts XML to JSON
     """
-
-    with open(xml_file_path, "r") as content_file:
-        xml_string = content_file.read()
 
     data_dict = xmltodict.parse(xml_string)
 
