@@ -1,0 +1,20 @@
+{
+    "sampling_time": "2023-03-01T19:00:00.000Z",
+    "result_time": "2023-03-01T19:15:21.071Z",
+    "metadata": {
+        "date_tm": "2023-03-01T19:00:00.000Z",
+        "stn_id": "15095",
+        "stn_nam": "New Hamburg Fairgrounds",
+        "stn_elev": "338",
+        "msc_id": "ON_GRCA_15095",
+        "lat": "43.37432",
+        "long": "-80.703105",
+        "data_pvdr": "GRCA",
+        "data_attrib_not": "Observational data provided by the GRCA. All rights reserved. | Données d’observation fournies par la Grand River Conservation Authority (GRCA). Tous droits réservés.",
+        "pcpn_msrmnt_mtd": "1"
+    },
+    "results": {
+        "air_temp": "3.4",
+        "air_temp_qa_summary": "100"
+    }
+}

@@ -12,6 +12,9 @@ def ungroup_elements(elements):
     </elements>
 
     """
+    # TODO try something like force_list=['elements','om:result'] in xmltodict arguments
+    if not isinstance(elements, list):
+        elements = [elements]
 
     results = {}
     for element in elements:
