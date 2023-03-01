@@ -36,4 +36,5 @@ def parseText(xml_string):
 
     # remove fill values
     replace_values(record["results"], "MSNG", None)
+    replace_values(record["metadata"], "MSNG", None)
     return record
