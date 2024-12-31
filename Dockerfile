@@ -1,6 +1,9 @@
 FROM python:3.10-slim
-
-COPY swob_xml_to_json test_files setup.py .
+COPY swob_xml_to_json swob_xml_to_json/
+COPY test_files test_files/
+COPY setup.py .
 
 RUN pip install .
-RUN for i in test_files/input_xml/*;do echo $i;python -m swob_xml_to_json $i > $(dirname $i)/../output_json/$(basename $i).json;done
+RUN mkdir -p /output_json
+
+CMD for i in /test_files/input_xml/*.xml; do echo Input: $i; python -m swob_xml_to_json $i > /output_json/$(basename $i).json;echo Output: /output_json/$(basename $i).json; echo ; done
