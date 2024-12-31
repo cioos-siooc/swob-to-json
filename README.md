@@ -1,4 +1,4 @@
-[![Python package](https://github.com/cioos-siooc/swob_to_json/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/cioos-siooc/swob_to_json/actions/workflows/test.yaml)
+[![Python package](https://github.com/cioos-siooc/swob-to-json/actions/workflows/test.yaml/badge.svg)](https://github.com/cioos-siooc/swob-to-json/actions/workflows/test.yaml)
 
 # Surface Weather Markup Language (SWOB) to JSON
 
