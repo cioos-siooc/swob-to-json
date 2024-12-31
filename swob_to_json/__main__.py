@@ -2,7 +2,7 @@ import json
 
 import click
 
-from swob_xml_to_json import swob_xml_to_json
+from swob_to_json import swob_to_json
 
 
 @click.command()
@@ -11,7 +11,7 @@ def main(filename):
     """
     Handle command line interaction via click
     """
-    swob_json = swob_xml_to_json.parseFile(filename)
+    swob_json = swob_to_json.parseFile(filename)
     print(json.dumps(swob_json, indent=4, ensure_ascii=False))
 
 

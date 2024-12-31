@@ -20,4 +20,4 @@ jobs:
           pip install .
       - name: Convert XML files
         run: |
-          for i in test_files/input_xml/*;do python -m swob_xml_to_json $i;done
+          for i in test_files/input_xml/*;do python -m swob_to_json $i;done

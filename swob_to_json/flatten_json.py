@@ -1,4 +1,4 @@
-from swob_xml_to_json.ungroup_elements import ungroup_elements
+from swob_to_json.ungroup_elements import ungroup_elements
 
 
 def flatten_json(data):

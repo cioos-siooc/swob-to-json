@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import xmltodict
 
-from swob_xml_to_json.flatten_json import flatten_json
+from swob_to_json.flatten_json import flatten_json
 
 """
 
