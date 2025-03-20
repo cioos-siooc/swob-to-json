@@ -15,17 +15,18 @@
         "tc_id": "WIN"
     },
     "results": {
-        "tot_cld_amt_code": 1.0,
-        "tot_cld_amt_code_qa_summary": 100.0,
+        "tot_cld_amt_code": 1,
+        "tot_cld_amt_code_qa_summary": 100,
         "vis": 24.14,
-        "vis_qa_summary": 100.0,
-        "wnd_dir_code": 8.0,
-        "wnd_dir_code_qa_summary": 100.0,
+        "vis_qa_summary": 100,
+        "wnd_dir_code": 8,
+        "wnd_dir_code_qa_summary": 100,
         "wnd_spd": 20.4,
-        "wnd_spd_qa_summary": 100.0,
+        "wnd_spd_qa_summary": 100,
         "wv_hgt": 0.0,
-        "wv_hgt_qa_summary": 100.0,
+        "wv_hgt_qa_summary": 100,
         "sea_state": 10.0,
-        "sea_state_qa_summary": 100.0
+        "sea_state_qa_summary": 100,
+        "wnd_dir": 0
     }
 }

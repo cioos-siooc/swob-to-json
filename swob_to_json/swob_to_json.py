@@ -27,7 +27,6 @@ def parseFile(xml_file_path):
 
 
 def parse_ccg_wind_direction(value: int) -> float:
-    print(f"Parsing wind direction: {value}")
     directions = {
         "0": None,  # Calm
         "1": 45,  # Northeast (NE)
@@ -57,7 +56,7 @@ def parse_ccg_wind_direction(value: int) -> float:
 
 
 def is_integer_key(key: str) -> bool:
-    integer_keys = ["_code", "_summary"]
+    integer_keys = ["_code", "_summary", "_flag"]
     for integer_key in integer_keys:
         if integer_key in key:
             return True
