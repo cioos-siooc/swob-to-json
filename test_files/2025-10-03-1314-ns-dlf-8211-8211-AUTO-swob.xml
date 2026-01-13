@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<om:ObservationCollection xmlns:om="http://www.opengis.net/om/1.0"
+    xmlns="http://dms.ec.gc.ca/schema/point-observation/2.0" xmlns:gml="http://www.opengis.net/gml"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <om:member>
+        <om:Observation>
+            <om:metadata>
+                <set>
+                    <general>
+                        <author build="build.13" name="MSC-DMS-PG-SWOB" version="6.0" />
+                        <dataset
+                            name="gov_ns/observation/atmospheric/surface_weather/forestry-1.0-ascii" />
+                        <phase name="product_generic_swob-xml-2.0" />
+                        <id
+                            xlink:href="/data/gov_ns/observation/atmospheric/surface_weather/forestry-1.0-ascii/product_generic_swob-xml-2.0/20251003131420000/ns-dlf_8211/8211/orig" />
+                        <parent
+                            xlink:href="/data/gov_ns/observation/atmospheric/surface_weather/forestry-1.0-ascii/decoded_enhanced-xml-2.0/20251003131420000/ns-dlf_8211/8211/orig" />
+                    </general>
+                    <identification-elements>
+                        <element name="stn_nam" uom="unitless" value="Margaree" />
+                        <element name="stn_id" uom="unitless" value="8211" />
+                        <element name="nesdis_id" uom="unitless" value="23C183B6" />
+                        <element name="msc_id" uom="unitless" value="NS-DLF_8211" />
+                        <element name="lat" uom="°" value="46.331" />
+                        <element name="long" uom="°" value="-61.002" />
+                        <element name="date_tm" uom="datetime" value="2025-10-03T13:14:20.000Z" />
+                        <element name="prov" uom="unitless" value="NS" />
+                        <element name="stn_elev" uom="m" value="20" />
+                        <element name="data_pvdr" uom="unitless" value="NS-DLF" />
+                        <element name="data_attrib_not" uom="unitless"
+                            value="Data provided by the Government of Nova Scotia: Department of Lands and Forestry (NS-DLF). All rights reserved. | Données d’observation fournies par le Gouvernement de la Nouvelle-Écosse: Département des Terres et des Forêts (NS-DLF). Tous droits réservés." />
+                    </identification-elements>
+                </set>
+            </om:metadata>
+            <om:samplingTime>
+                <gml:TimeInstant>
+                    <gml:timePosition>2025-10-03T13:14:20.000Z</gml:timePosition>
+                </gml:TimeInstant>
+            </om:samplingTime>
+            <om:resultTime>
+                <gml:TimeInstant>
+                    <gml:timePosition>2025-10-03T13:14:59.960Z</gml:timePosition>
+                </gml:TimeInstant>
+            </om:resultTime>
+            <om:procedure
+                xlink:href="/metadata/gov_ns/mr/station_config/forestry/instance-xml-2.0/ns-dlf_8211/23c183b6?version=1.0" />
+            <om:observedProperty gml:remoteSchema="/schema/point-observation/2.0.xsd" />
+            <om:featureOfInterest>
+                <gml:FeatureCollection>
+                    <gml:location>
+                        <gml:Point>
+                            <gml:pos>46.331 -61.002</gml:pos>
+                        </gml:Point>
+                    </gml:location>
+                </gml:FeatureCollection>
+            </om:featureOfInterest>
+            <om:result />
+        </om:Observation>
+    </om:member>
+</om:ObservationCollection>

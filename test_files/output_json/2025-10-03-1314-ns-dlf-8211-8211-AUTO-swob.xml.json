@@ -1,0 +1,18 @@
+{
+    "sampling_time": "2025-10-03T13:14:20.000Z",
+    "result_time": "2025-10-03T13:14:59.960Z",
+    "metadata": {
+        "stn_nam": "Margaree",
+        "stn_id": "8211",
+        "nesdis_id": "23C183B6",
+        "msc_id": "NS-DLF_8211",
+        "lat": 46.331,
+        "long": -61.002,
+        "date_tm": "2025-10-03T13:14:20.000Z",
+        "prov": "NS",
+        "stn_elev": 20.0,
+        "data_pvdr": "NS-DLF",
+        "data_attrib_not": "Data provided by the Government of Nova Scotia: Department of Lands and Forestry (NS-DLF). All rights reserved. | Données d’observation fournies par le Gouvernement de la Nouvelle-Écosse: Département des Terres et des Forêts (NS-DLF). Tous droits réservés."
+    },
+    "results": {}
+}
