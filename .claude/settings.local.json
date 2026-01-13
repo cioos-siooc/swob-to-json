@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/nate.rosenstock/dev/swob-to-json log --oneline -20)",
+      "Bash(python:*)",
+      "Bash(git -C /Users/nate.rosenstock/dev/swob-to-json diff HEAD)",
+      "Bash(pip install:*)",
+      "Bash(pytest:*)"
+    ]
+  }
+}
