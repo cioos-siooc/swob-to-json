@@ -2,9 +2,9 @@
 
 # Surface Weather Markup Language (SWOB) to JSON
 
-Converts [Environment and Climate Change Canada](https://www.canada.ca/en/environment-climate-change.html)'s [SWOB-ML XML](https://dd.weather.gc.ca/observations/swob-ml/) files to JSON.
+Converts [Environment and Climate Change Canada](https://www.canada.ca/en/environment-climate-change.html)'s [SWOB-ML XML](https://dd.weather.gc.ca/today/observations/swob-ml/) files to JSON.
 
-SWOB is Surface Weather and Marine Observation Markup Language, the format is described in docs [here](https://dd.alpha.meteo.gc.ca/observations/doc)
+SWOB is Surface Weather and Marine Observation Markup Language, the format is described in docs [here](https://collaboration.cmc.ec.gc.ca/cmc/cmos/public_doc/msc-data/obs_station/)
 
 ## Installation
 
@@ -108,6 +108,6 @@ mypy swob_to_json/
 
 ## Links
 
-- [ECCC Datamart SWOB-ML folder](https://dd.weather.gc.ca/observations/swob-ml/)
-- [ECCC SWOB Docs](https://dd.weather.gc.ca/observations/doc)
+- [ECCC Datamart SWOB-ML folder](https://dd.weather.gc.ca/today/observations/swob-ml/)
+- [ECCC SWOB Docs](https://collaboration.cmc.ec.gc.ca/cmc/cmos/public_doc/msc-data/obs_station/)
 - [ECCC](https://www.canada.ca/en/environment-climate-change.html)
